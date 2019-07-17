@@ -119,12 +119,6 @@
                           
                       
                           
-                          
-                              <li class="active">
-                                  
-                                  <a href="/folder/">Another test</a>
-                              </li>
-                          
                       
                           
                       
@@ -151,7 +145,31 @@
                   
               </ul>
             </nav>
-            <p>TESTING</p>
+            <h1>Your Stocks and Shares</h1>
+<p>Please enter the information of any company shares you own.</p>
+<form>
+  <div class="form-item">
+    <label class="label--block" for="bank-name">
+      Name of the company the shares are in
+    </label>
+    <input class="au-text-input thing-name" name="shares-company-name" id="shares-company-name" type="text">
+    <input class="thing-info" style="display:none;" value="">
+  </div>
+  <div class="form-item">
+    <label class="label--block" for="bank-info">
+      Any more information which will help manage these shares
+      <em class="label--block">
+        For example a broker name
+      </em>
+    </label>
+    <textarea class="au-text-input thing-info" name="shares-info" id="shares-info"></textarea>
+  </div>
+  <p><a href="#" class="au-btn" onclick="return false" id="add-the-thing">Add</a></p>
+  <div class="row au-body emptyrow" id="thingList"></div>
+  <div class="form-item">
+    <a href="task-list.html" class="au-btn">Return to list</a>
+  </div>
+</form>
 
           </div>
 				</div>
