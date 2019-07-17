@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<h1>Your life insurance</h1>
+<p>If you have a life insurance policy, enter the information here.</p>
+<form>
+  <div class="form-item">
+    <label class="label--block" for="bank-name">
+      Name of the life insurance company
+    </label>
+    <input class="au-text-input thing-name" name="shares-company-name" id="shares-company-name" type="text">
+    <input class="thing-info" style="display:none;" value="">
+  </div>
+  <div class="form-item">
+    <label class="label--block" for="insurance-info">
+      Any more information which may be useful
+    </label>
+    <textarea class="au-text-input thing-info" name="insurance-info" id="insurance-info"></textarea>
+  </div>
+  <p><a href="#" class="au-btn" onclick="return false" id="add-the-thing">Add</a></p>
+  <div class="row au-body emptyrow" id="thingList"></div>
+  <div class="form-item">
+    <a href="task-list.html" class="au-btn">Return to list</a>
+  </div>
+</form>
