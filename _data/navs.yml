@@ -43,11 +43,11 @@ mainnav:
         page: 'Home'
         url: /
       -
-        page: 'Basic page'
-        url: /basic/
+        page: 'Register'
+        url: /
       -
-        page: 'Form page'
-        url: /form/
+        page: 'Contact us'
+        url: /
 
 bottomnav:
   -

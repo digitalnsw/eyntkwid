@@ -75,11 +75,11 @@
 								</button>
 								<ul class="au-link-list">
                     
-  									   <li class="active"><a href="/">Home</a></li>
+  									   <li class=""><a href="/">Home</a></li>
                     
-  									   <li class="active"><a href="/">Register</a></li>
+  									   <li class=""><a href="/">Register</a></li>
                     
-  									   <li class="active"><a href="/">Contact us</a></li>
+  									   <li class=""><a href="/">Contact us</a></li>
                     
 								</ul>
 								<div class="au-main-nav__focus-trap-bottom"></div>
@@ -106,34 +106,84 @@
                   
                   
                   
+                      
+                      
+                      
+                      
+                          
+                      
+                          
+                      
+                          
+                      
+                          
+                      
+                          
+                      
+                          
+                      
+                          
+                      
+                          
+                      
+                          
+                      
+                          
+                      
+                          
+                      
+                          
+                      
+                          
+                      
+                  
               </ul>
             </nav>
-            <h1 id="about-this-website">About this website</h1>
-
-<p>When somebody dies it can be hard to find information about their accounts, subscriptions, and their will. Not having that information makes it harder for the people managing the dead person’s affairs.</p>
-
-<p>This website is a place where you can register your account details so that a trusted person will know what to do. If you have a will, you can also register where it’s stored, to make sure it doesn’t get forgotten.</p>
-
-<p>We’ll ask you for the details of a trusted person, who will be able to see your saved information in the event of your death.</p>
-
-<h2 id="before-you-start">Before you start</h2>
-
-<p>Every section is optional, so you don’t have to share anything you don’t want to.</p>
-
-<p>We’ll ask questions about:</p>
-<ul>
-  <li>Your will</li>
-  <li>Your bank accounts</li>
-  <li>Savings</li>
-  <li>Superannuation</li>
-  <li>Stocks and shares</li>
-  <li>Insurance</li>
-  <li>Houses and real estate</li>
-</ul>
-
-<p>The information you save will only be accessible by you and your trusted person.</p>
-
-<p><a href="profile.html" class="au-btn">Enter your information</a></p>
+            <h1>Your funeral</h1>
+<p>Let your trusted person know if you have specific funeral preferences</p>
+<form>
+  <div class="form-item">
+    <label class="label--block">
+      Would you prefer to be buried or cremated?
+    </label>
+    <label class="au-control-input au-control-input--block">
+      <input class="au-control-input__input" type="radio" name="interment" value="buried">
+      <span class="au-control-input__text">Buried</span>
+    </label>
+    <label class="au-control-input au-control-input--block">
+      <input class="au-control-input__input" type="radio" name="interment" value="cremated">
+      <span class="au-control-input__text">Cremated</span>
+    </label>
+  </div>
+  <div class="form-item">
+    <label for="trusted-postcode" class="label--block">
+      Do you have a pre-paid funeral?
+    </label>
+    <label class="au-control-input au-control-input--block">
+      <input class="au-control-input__input" type="radio" name="prepaid-funeral" value="no">
+      <span class="au-control-input__text">No</span>
+    </label>
+    <label class="au-control-input au-control-input--block">
+      <input class="au-control-input__input" type="radio" name="prepaid-funeral" value="yes">
+      <span class="au-control-input__text">Yes</span>
+    </label>
+  </div>
+  <div class="form-item optional-section-prepaid-funeral optional-section" data-toggle-value="yes">
+    <label for="prepaid-funeral-company" class="label--block">
+      What is the name of the company you have paid for a funeral with?
+    </label>
+    <input class="au-text-input" name="prepaid-funeral-company" id="prepaid-funeral-company" type="text">
+  </div>
+  <div class="form-item" data-toggle-value="lawyer">
+    <label for="funeral-wishes" class="label--block">
+      Do you have any specific wishes for your funeral?
+    </label>
+    <textarea class="au-text-input au-text-input" name="funeral-wishes" id="funeral-wishes"></textarea>
+  </div>
+  <div class="form-item">
+    <a href="task-list.html" class="au-btn">Save &amp; Return to list</a>
+  </div>
+</form>
 
           </div>
 				</div>

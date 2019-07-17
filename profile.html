@@ -1,8 +1,52 @@
 ---
 layout: default
 ---
-<h1>Your profile information</h1>
-
-
-
-<a href="profile.html" class="au-btn">Enter your information</a>
+<h1>About you</h1>
+<p>We need to collect some basic information about you.</p>
+<form>
+  <div class="form-item">
+    <label for="user-fullname" class="label--block">
+      Full name
+    </label>
+    <input class="au-text-input" name="user-fullname" id="user-fullname" type="text">
+  </div>
+  <div class="form-item">
+    <label for="user-email" class="label--block">
+      E-mail address
+    </label>
+    <input class="au-text-input" name="user-email" id="user-email" type="text">
+  </div>
+  <div class="form-item">
+    <label for="user-password" class="label--block">
+      Password
+      <em class="label--block">
+        You can use this to make changes in the future
+      </em>
+    </label>
+    <input class="au-text-input" name="user-password" id="user-password" type="password" value="thisisapassword" disabled>
+  </div>
+  <div class="form-item">
+    <label class="label--block">
+      Reminders
+      <em class="label--block">
+        We can send you emails to remind you to keep your account information up to date.
+        <br> You can change this later.
+      </em>
+    </label>
+    <label class="au-control-input au-control-input--block">
+      <input class="au-control-input__input" type="radio" name="reminder" value="monthly">
+      <span class="au-control-input__text">Monthly</span>
+    </label>
+    <label class="au-control-input au-control-input--block">
+      <input class="au-control-input__input" type="radio" name="reminder" value="yearly">
+      <span class="au-control-input__text">Yearly</span>
+    </label>
+    <label class="au-control-input au-control-input--block">
+      <input class="au-control-input__input" type="radio" name="reminder" value="never">
+      <span class="au-control-input__text">Never</span>
+    </label>
+  </div>
+  <div class="form-item">
+    <a href="trusted-person.html" class="au-btn">Next page</a>
+  </div>
+</form>

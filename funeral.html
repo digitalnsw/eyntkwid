@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<h1>Your funeral</h1>
+<p>Let your trusted person know if you have specific funeral preferences</p>
+<form>
+  <div class="form-item">
+    <label class="label--block">
+      Would you prefer to be buried or cremated?
+    </label>
+    <label class="au-control-input au-control-input--block">
+      <input class="au-control-input__input" type="radio" name="interment" value="buried">
+      <span class="au-control-input__text">Buried</span>
+    </label>
+    <label class="au-control-input au-control-input--block">
+      <input class="au-control-input__input" type="radio" name="interment" value="cremated">
+      <span class="au-control-input__text">Cremated</span>
+    </label>
+  </div>
+  <div class="form-item">
+    <label for="trusted-postcode" class="label--block">
+      Do you have a pre-paid funeral?
+    </label>
+    <label class="au-control-input au-control-input--block">
+      <input class="au-control-input__input" type="radio" name="prepaid-funeral" value="no">
+      <span class="au-control-input__text">No</span>
+    </label>
+    <label class="au-control-input au-control-input--block">
+      <input class="au-control-input__input" type="radio" name="prepaid-funeral" value="yes">
+      <span class="au-control-input__text">Yes</span>
+    </label>
+  </div>
+  <div class="form-item optional-section-prepaid-funeral optional-section" data-toggle-value="yes">
+    <label for="prepaid-funeral-company" class="label--block">
+      What is the name of the company you have paid for a funeral with?
+    </label>
+    <input class="au-text-input" name="prepaid-funeral-company" id="prepaid-funeral-company" type="text">
+  </div>
+  <div class="form-item" data-toggle-value="lawyer">
+    <label for="funeral-wishes" class="label--block">
+      Do you have any specific wishes for your funeral?
+    </label>
+    <textarea class="au-text-input au-text-input" name="funeral-wishes" id="funeral-wishes"></textarea>
+  </div>
+  <div class="form-item">
+    <a href="task-list.html" class="au-btn">Save &amp; Return to list</a>
+  </div>
+</form>
