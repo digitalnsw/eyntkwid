@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<h1>Your bank accounts</h1>
+<p>Please enter the name of the banks you're with</p>
+<form>
+  <div class="form-item">
+    <label class="label--block" for="bank-name">
+      Name of the bank
+    </label>
+    <input class="au-text-input thing-name" name="bank-name" id="bank-name" type="text">
+  </div>
+  <div class="form-item">
+    <label class="label--block" for="bank-info">
+      Any more information for the bank
+      <em class="label--block">
+        Most banks will be able to find your account just from your name and date of birth
+      </em>
+    </label>
+    <textarea class="au-text-input thing-info" name="thing-info" id="thing-info"></textarea>
+  </div>
+  <p><a href="#" class="au-btn" onclick="return false" id="add-the-thing">Add bank</a></p>
+  <div class="row au-body emptyrow" id="thingList"></div>
+  <div class="form-item">
+    <a href="task-list.html" class="au-btn">Save &amp; Return to list</a>
+  </div>
+</form>

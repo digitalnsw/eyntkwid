@@ -136,18 +136,33 @@
                       
                           
                       
+                          
+                      
+                          
+                      
                   
               </ul>
             </nav>
             <h1>People you'd like to be told</h1>
-<p>For everyone you'd like your trusted person to inform, enter what contact details you have that may help. </p>
+<p>For everyone you'd like your trusted person to tell about your passing, enter what contact details you have that may help. </p>
 <form>
   <div class="form-item">
-    <label class="label--block">
-      What is their name?
+    <label class="label--block" for="persontotell-name">
+      Name of the person you'd like to be told
     </label>
-    <input class="au-text-input" name="lawyer-name" id="lawyer-name" type="text">
+    <input class="au-text-input thing-name" name="persontotell-name" id="persontotell-name" type="text">
   </div>
+  <div class="form-item">
+    <label class="label--block" for="persontotell-info">
+      Their contact information
+      <em class="label--block">
+        Enter addresses, phone numbers, or email addresses
+      </em>
+    </label>
+    <textarea class="au-text-input thing-info" name="persontotell-info" id="persontotell-info"></textarea>
+  </div>
+  <p><a href="#" class="au-btn" onclick="return false" id="add-the-thing">Add person</a></p>
+  <div class="row au-body emptyrow" id="thingList"></div>
   <div class="form-item">
     <a href="task-list.html" class="au-btn">Save &amp; Return to list</a>
   </div>
