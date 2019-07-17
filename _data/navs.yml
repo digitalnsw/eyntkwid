@@ -44,10 +44,10 @@ mainnav:
         url: /
       -
         page: 'Register'
-        url: /
+        url: /register
       -
         page: 'Contact us'
-        url: /
+        url: /contact
 
 bottomnav:
   -
