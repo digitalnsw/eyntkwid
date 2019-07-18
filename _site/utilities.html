@@ -151,43 +151,26 @@
                   
               </ul>
             </nav>
-            <h1>Your will</h1>
-<p>Let your trusted person know how they can get access to your will</p>
+            <h1>Your electricity and gas accounts</h1>
+<p>Please enter ther account information for any electricity or gas accounts.</p>
 <form>
   <div class="form-item">
-    <label class="label--block">
-      Do you have a will?
+    <label class="label--block" for="utilities-company-name">
+      Name of the supplier
     </label>
-    <label class="au-control-input au-control-input--block">
-      <input class="au-control-input__input" type="radio" name="has-will" value="yes">
-      <span class="au-control-input__text">Yes</span>
-    </label>
-    <label class="au-control-input au-control-input--block">
-      <input class="au-control-input__input" type="radio" name="has-will" value="no">
-      <span class="au-control-input__text">No</span>
-    </label>
+    <input class="au-text-input thing-name" name="utilities-company-name" id="utilities-company-name" type="text">
+    <input class="thing-info" style="display:none;" value="">
   </div>
   <div class="form-item">
-    <label for="trusted-postcode" class="label--block">
-      Where is your will stored?
+    <label class="label--block" for="bank-info">
+      Address of the property on the account
     </label>
-    <label class="au-control-input au-control-input--block">
-      <input class="au-control-input__input" type="radio" name="will-stored" value="tag">
-      <span class="au-control-input__text">With NSW Trustee &amp; Guardian</span>
-    </label>
-    <label class="au-control-input au-control-input--block">
-      <input class="au-control-input__input" type="radio" name="will-stored" value="lawyer">
-      <span class="au-control-input__text">With a Lawyer or Solicitor</span>
-    </label>
+    <textarea class="au-text-input thing-info" name="utilities-info" id="utilities-info"></textarea>
   </div>
-  <div class="form-item optional-section-will-stored optional-section" data-toggle-value="lawyer">
-    <label for="lawyer-name" class="label--block">
-      What is the name of the legal company?
-    </label>
-    <input class="au-text-input" name="lawyer-name" id="lawyer-name" type="text">
-  </div>
+  <p><a href="#" class="au-btn" onclick="return false" id="add-the-thing">Add</a></p>
+  <div class="row au-body emptyrow" id="thingList"></div>
   <div class="form-item">
-    <a href="task-list.html" class="au-btn">Save &amp; Return to list</a>
+    <a href="task-list.html" class="au-btn">Return to list</a>
   </div>
 </form>
 
