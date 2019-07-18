@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<h1>Your houses, properties, and real estate</h1>
+<p>If you own properties you'd like to make sure your trusted person is aware of, enter the details below.</p>
+<form>
+  <div class="form-item">
+    <label class="label--block" for="property-name">
+      Address of the property
+    </label>
+    <input class="au-text-input thing-name" name="property-name" id="property-name" type="text">
+    <input class="thing-info" style="display:none;" value="">
+  </div>
+  <div class="form-item">
+    <label class="label--block" for="property-info">
+      Any more information which may be useful
+    </label>
+    <textarea class="au-text-input thing-info" name="property-info" id="property-info"></textarea>
+  </div>
+  <p><a href="#" class="au-btn" onclick="return false" id="add-the-thing">Add</a></p>
+  <div class="row au-body emptyrow" id="thingList"></div>
+  <div class="form-item">
+    <a href="task-list.html" class="au-btn">Return to list</a>
+  </div>
+</form>
